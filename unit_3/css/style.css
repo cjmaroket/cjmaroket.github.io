@@ -1,46 +1,22 @@
-#identity {
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #FFFFFF;
 	font-family: Arial, sans-serif;
-	font-size: 30px;
-	color: #333333;
 }
-
-#nav {
+nav {
 	font-family: Arial, sans-serif;
 	font-size: 20px;
 	text-align: right;
 	color: #FF3366;
 }
 
-#main {
+main {
 	background: url("http://fotonin.com/data_images/out/9/830441-henna.jpg");
 	background-size: cover;
+	background-repeat:no-repeat;
 	text-align: center;
 	color: #999999;
 }
-
-#introtitle {
-	font-size: 30px;
-	color: #ffffff;
-}
-
-#introcopy {
-	font-size: 20px;
-	
-}
-
-#copyright {
-	font-size: 14px;
-}
-
-.calltoaction {
-	color: #FF3366;
-}
-
-body {
-	background-color: #FFFFFF;
-	font-family: Arial, sans-serif;
-}
-
 h1 {
 	font-size: 32px;
 	color: #333333;
@@ -60,4 +36,26 @@ h3 {
 p {
 	font-size: 14px;
 	color: #999999;
+}
+#identity {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	color: #333333;
+}
+#introtitle {
+	font-size: 30px;
+	color: #ffffff;
+}
+
+#introcopy {
+	font-size: 20px;
+	
+}
+
+#copyright {
+	font-size: 14px;
+}
+
+.calltoaction {
+	color: #FF3366;
 }
