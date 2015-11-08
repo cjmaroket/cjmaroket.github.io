@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento|Raleway);
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+	background-color: #f5f2ec;
+}
+
+h1, h2 {
+	color: #f5f2ec;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: .05em;
+	margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 3em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	padding: 0.5em;
+}
+
+p {
+	color: #28303B;
+	font-family: 'Quattrocento', sans-serif;
+	font-size: 1em;
+	letter-spacing: .02em;
+	line-height: 1.3;
+	padding-bottom: 0.5em;
+}
+
+a {
+	color: #000066;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	letter-spacing: .02em;
+	text-decoration: none;
+}
+
+header {
+	padding: 2em;
+	margin-bottom: 3em;
+}
+
+nav {
+	float: right;
+    font-size: 1.5em;
+}
+
+footer {
+	margin: 2em 0em 1em 0em;
+}
+
+.intro {
+	margin-top: 6em;
+}
+
+.navitem {
+	color: #4fa5b5;
+	margin-left: 1.5em;
+}
+
+.icon {
+	margin: 1em;
+	width: 40px;
+}
+
+#brand {
+	clear: both;
+	color: #735229;
+	float: left;
+	font-family: 'Quattrocento', serif;
+	font-size: 2em;
+	font-weight: 600;
+	letter-spacing: .05em;
+}
+
+#content {
+	background-image: url("../images/window.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 880px;
+}
+
+#headline {
+	margin: 0 auto ;
+	padding: 8em 2em;
+	width: 980px;
+}
+
+#headlinecopy {
+	font-size: 1.5em;
+    text-align: center;
+}
+
+#portfolio {
+	width: 400px;
+	float: left;
+	margin: 6em 4em 0em 14em;
+	text-align: center;
+	width: 400px;
+}
+
+#contact {
+	float: left;
+	margin: 6em 4em 0em 2em;
+	text-align: center;
+	width: 400px;
+}
+
+#socialmedia {
+	margin-left: auto;
+	margin-right: auto;
+	width: 230px; 
+}
+
+#copyright {
+	text-align: center;
+}
